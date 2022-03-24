@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.container{
+    margin-top: 30px;
+
+}
+.name{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    color: #666666
+}
+.technologies{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: #666666;
+}
