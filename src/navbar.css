@@ -83,6 +83,9 @@ html, body
     }
     .navhamburger{
         display: block;
+        position: absolute;
+        right: 5%;
+
     }
 
 }

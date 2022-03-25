@@ -3,17 +3,53 @@
 
 .container{
     margin-top: 30px;
-
 }
-.name{
+.presentation{
+    display: flex;
+    justify-content: center;
+}
+.titles{
+    margin: 100px 0 0 5vw;
+}
+.titles h1{
     font-size: 60px;
     text-align: center;
     font-family: 'Anton', sans-serif;
     color: #666666
 }
-.technologies{
+.titles p{
     font-size: 25px;
     text-align: center;
     font-family: 'Bebas Neue', cursive;
     color: #666666;
+}
+.presentation img{
+    border: 3px solid #666666;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 750px) {
+    .presentation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .presentation img{
+        width: 200px;
+    }
+    .titles{
+        margin: 50px 0 0 5vw;
+    }
+    .titles h1{
+        font-size: 45px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        color: #666666
+    }
+    .titles p{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Bebas Neue', cursive;
+        color: #666666;
+    }
 }
