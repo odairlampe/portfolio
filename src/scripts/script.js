@@ -28,3 +28,9 @@ function hamburgerLines() {
     $(".line1, .line2, .line3").addClass('hamburger-line')
   }
 }
+
+// any <a> click closes the sidebar
+$('.link-light').on('click', () => {
+  $('#sidebar').removeClass('uncover visible');
+  $('.pusher').removeClass('dimmed');
+})
