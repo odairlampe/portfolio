@@ -1,0 +1,14 @@
+.c-portfolio{
+    height: 100vh;
+    background-color: rgb(221, 221, 221);
+    padding-top: 1%;
+}
+.projects{
+    display: flex;
+}
+.project{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 1px solid black;
+}

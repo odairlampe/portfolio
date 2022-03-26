@@ -1,10 +1,5 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway';
 
-html, body
-{
-    margin: 0px;
-}
-
 .navdiv{
     font-family: Raleway;
     margin: 0 auto;
@@ -64,9 +59,6 @@ html, body
 }
 
 .navhamburger{
-    margin: 20px 20px 0 0;
-    cursor: pointer;
-    float: right;
     display: none;
 }
 
@@ -74,7 +66,24 @@ html, body
     background-color: rgb(59, 59, 59);
     width: 40px;
     height: 5px;
-    margin: 5px 0 ;
+    margin: 5px 0;
+    transition: 1s;
+}
+.hamburger-x-1{
+    background-color: rgb(59, 59, 59);
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    transition: .8s;
+    transform: rotate(50deg);
+}
+.hamburger-x-2{
+    background-color: rgb(59, 59, 59);
+    width: 40px;
+    height: 5px;
+    position: absolute;
+    transition: .8s;
+    transform: rotate(-50deg);
 }
 
 @media screen and (max-width: 750px) {
@@ -82,10 +91,11 @@ html, body
         display: none;
     }
     .navhamburger{
-        display: block;
+        cursor: pointer;
+        display: inline-block;
         position: absolute;
-        right: 5%;
-
+        top: 5%;
+        left: 5%;
     }
 
 }
